@@ -18,8 +18,24 @@ main section {
     min-height: 80vh;
 }
 
-main section h3, main section a {
-    margin: 15px 0px;
+#loader {
+    display: none;
+}
+
+#secondHeading {
+    display: none;
+}
+
+#mainBTN {
+    margin-bottom: 5px;
+}
+
+.monthsBTN {
+    margin: 5px 0px;
+}
+
+.monthsBTN {
+    display: none;
 }
 
 .hiddenbtn {
