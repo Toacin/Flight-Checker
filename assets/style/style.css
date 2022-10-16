@@ -1,10 +1,27 @@
+body {
+    font-family: "Josefin Sans";
+}
+
 .custom-nav {
     min-height: 100px;
 }
 
-main {
+#navHeader {
+    font-size: 2em;
+}
+
+main section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+}
+
+main section h3, main section a {
+    margin: 15px 0px;
+}
+
+.hiddenbtn {
+    display: none;
 }
